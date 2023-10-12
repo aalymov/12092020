@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+	font-family: 'Montserrat', sans-serif; /* Подключение шрифта Montserrat */
+    background-color: #171717; /* Цвет фона черный (#171717) */
+}
+
+.centered-content {
+    text-align: center;
+	font-size: 100px; /* Размер шрифта */
+	color: #bd0001; /* Цвет текста красный (#A50000) */
+}
+
+.timer {
+    font-size: 40px; /* Размер шрифта */
+    color: #bd0001; /* Цвет текста красный (#A50000) */
+    
+
+}
+
+.social-links a {
+	font-size: 20px; /* Размер шрифта */
+    color: #C0C0C0; /* Цвет ссылок синий (#007BFF) */
+	margin: 0 5px; /* Расстояние между ссылками */
+   
+}
+
+
+/* Подключение шрифта Montserrat из Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+
+
