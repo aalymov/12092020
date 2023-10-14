@@ -1,40 +1,34 @@
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-	font-family: 'Montserrat', sans-serif; /* Подключение шрифта Montserrat */
-    background-color: #171717; /* Цвет фона черный (#171717) */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #171717;
 }
 
 .centered-content {
+    position: relative;
     text-align: center;
-	font-size: 100px; /* Размер шрифта */
-	color: #bd0001; /* Цвет текста красный (#A50000) */
+    font-size: 40px;
+    color: #bd0001;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border: 5px solid rgba(189, 0, 1, 0.8);
+    border-radius: 10px; /* Закругляем углы контейнера */
+	
 }
 
 .timer {
-    font-size: 40px; /* Размер шрифта */
-    color: #bd0001; /* Цвет текста красный (#A50000) */
-    
-
+    font-size: 60px; /* Увеличиваем размер шрифта для времени */
+    color: #fff; /* Белый цвет текста */
 }
 
 .social-links a {
-	font-size: 20px; /* Размер шрифта */
-    color: #C0C0C0; /* Цвет ссылок синий (#007BFF) */
-	margin: 0 5px; /* Расстояние между ссылками */
-   
+    font-size: 20px;
+    color: #C0C0C0;
+    margin: 0 10px; /* Увеличиваем расстояние между ссылками */
 }
-
-
-/* Подключение шрифта Montserrat из Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-
-
-
 
 
