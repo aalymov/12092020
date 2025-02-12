@@ -1,5 +1,5 @@
 function updateElapsedTime() {
-    var startDate = new Date("September 12, 2020 18:00:00").getTime();
+    var startDate = new Date("October 31, 2022 14:21:00").getTime();
     var currentDate = new Date().getTime();
     var timeElapsed = currentDate - startDate;
     var days = Math.floor(timeElapsed / (1000 * 60 * 60 * 24));
